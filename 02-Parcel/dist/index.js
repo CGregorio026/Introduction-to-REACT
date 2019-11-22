@@ -31746,13 +31746,13 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 // import App from './App';
 var Welcome = function Welcome(props) {
-  return _react.default.createElement("h1", null, "Good Morning, ", props.name, " ");
+  return _react.default.createElement(_react.default.Fragment, null, _react.default.createElement("h1", null, "Buenos Dias, ", props.name, " "));
 };
 
 exports.Welcome = Welcome;
 
 _reactDom.default.render(_react.default.createElement(Welcome, {
-  name: "Sara "
+  name: "Sara"
 }), document.getElementById('app'));
 
 _reactDom.default.render(_react.default.createElement(Welcome, null), document.getElementById('app')); // ReactDOM.render(<p>sidebar gang</p>,document.getElementById('sidebar'))
@@ -31762,7 +31762,7 @@ _reactDom.default.render(_react.default.createElement(Welcome, null), document.g
 // ReactDOM.render(
 // <Welcome name="Sara"/>, document.getElementById('app')
 // );
-},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js"}],"../../../../../.npm/_npx/11183/lib/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js"}],"../../../../../.npm/_npx/9727/lib/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -31790,7 +31790,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52625" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52563" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -31966,5 +31966,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../../../../.npm/_npx/11183/lib/node_modules/parcel/src/builtins/hmr-runtime.js","index.js"], null)
-//# sourceMappingURL=/02-Parcel.e31bb0bc.js.map
+},{}]},{},["../../../../../.npm/_npx/9727/lib/node_modules/parcel/src/builtins/hmr-runtime.js","index.js"], null)
+//# sourceMappingURL=/index.js.map
